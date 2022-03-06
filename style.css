@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.color-higlight {
+  color: orange;
+  font-size: 2.7rem;
+}
+#fency-heading {
+  color: darkblue;
+  font-size: 3rem;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding-left: 1rem;
+  border-left: 4px solid #ff5959;
+}
+h4 {
+  margin-bottom: 20px;
+}
+p {
+  font-size: 1rem;
+  color: dimgray;
+}
+.flexible-conainer {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 500px;
+  padding-bottom: 100px;
+}
+.flexible-box {
+  width: 45%;
+  float: left;
+  display: block;
+  margin: 0 10px;
+  padding-left: 5%;
+}
+.flexible-box img {
+  width: 80%;
+  margin-left: 5%;
+}
+button {
+  border: 0;
+  margin: 20px 0;
+}
+.fency-btn {
+  text-decoration: none;
+  border: 1.5px solid lightgreen;
+  padding: 13px 18px;
+  background: linear-gradient(45deg, tomato, lightcoral);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-align: center;
+  display: block;
+  background-position: top;
+  outline: none;
+}
+#header-section {
+  background-image: url(./images/shape-4.png);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position-x: 81%;
+  background-position-y: 50%;
+  padding-bottom: 5rem;
+}
+
+/* ------------nav part----------- */
+.nav-item {
+  height: 60px;
+  padding: 1.5rem 0;
+}
+nav ul {
+  list-style-type: none;
+  background-color: #fff;
+  height: 50px;
+}
+nav ul li {
+  float: left;
+  color: #111;
+  padding: 16px 30px;
+  margin-right: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+nav ul li:hover {
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* ---------- mission section ---------- */
+#mission-section h1 {
+  color: #111111;
+  text-align: center;
+  font-size: 2.7rem;
+  padding: 1rem 0 1.5rem 0;
+  margin-bottom: 2rem;
+}
+.single-box {
+  height: 400px;
+  height: 360px;
+  border-radius: 7px;
+  box-shadow: 0 0 10px 0 rgb(204, 241, 204);
+  padding: 0;
+}
+.single-box img {
+  width: 50%;
+  padding-left: 0;
+  margin-left: 5px;
+}
+.single-card-details {
+  margin: 10px 10px 10px 15px;
+  padding-left: 13px;
+}
+.single-card-details h3 {
+  color: darkblue;
+  padding: 10px 0;
+}
+#mission {
+  background-color: #9fe2bf;
+}
+#vission {
+  background-color: #ccccff;
+}
+#goal {
+  background-color: rgb(159, 210, 224);
+}
+
+/* ----------- developer section ------------ */
+#developer-section,
+#personal-section {
+  background-image: url("./images/shape-1.png");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position-x: left;
+  background-position-y: 45%;
+  padding-bottom: 50px;
+}
+.developer-section,
+.personal-section {
+  margin: 0;
+  padding-left: 0;
+}
+.developer-section img {
+  padding: 2rem 1rem;
+  margin-left: 5rem;
+}
+.personal-section img {
+  border-radius: 10%;
+  width: 85%;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.developer-section .global-community,
+h2 {
+  font-size: 2rem;
+  color: darkblue;
+  padding: 1.5rem 0;
+  margin-top: 5rem;
+}
+.black-highlight {
+  color: #111;
+  font-size: 2.5rem;
+  display: block;
+}
+.global-community {
+  padding: 2rem 1rem;
+  margin-left: 5rem;
+}
+#global-community {
+  background-image: url("./images/shape-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12%;
+  background-position-x: 97%;
+  background-position-y: 87%;
+  padding: 50px 0;
+}
+
+/* ------------contact me form ----------- */
+.contact-form {
+  text-align: center;
+}
+h4 {
+  margin-top: -20px;
+  color: lightcoral;
+}
+.contact-box {
+  width: 500px;
+  background-color: rgb(119, 119, 119);
+  box-shadow: 0 0 20px 0 #999;
+  border-radius: 10px;
+  margin: 1rem auto;
+  padding: 15px 0;
+}
+form {
+  margin: 35px;
+}
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 10px;
+  outline: none;
+}
+
+.textarea-filed {
+  height: 150px;
+  padding-top: 10px;
+}
+
+/* ----------footer part----------- */
+footer {
+  background-color: #111;
+  text-align: center;
+}
+footer h1 {
+  color: #fff;
+  padding: 2rem 0 0.5rem 0;
+}
+.Fancy-footer {
+  color: tomato;
+}
